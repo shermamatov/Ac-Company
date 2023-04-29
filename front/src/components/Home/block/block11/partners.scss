@@ -1,0 +1,23 @@
+.partners{
+    padding: 100px 0;
+    &__inner{
+        border-top: 1px solid #E8E8EC;
+        border-bottom: 1px solid #E8E8EC;
+        display: flex;
+        padding: 20px 0;
+        justify-content: space-between;
+        width: 100%;
+        img{
+            width: 10%;
+        }
+    }
+}
+@media (max-width:860px) {
+    .partners{
+        &__inner{
+            img{
+                width: 25%;
+            }
+        }
+    }
+}

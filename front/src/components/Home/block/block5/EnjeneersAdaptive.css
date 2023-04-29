@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  .block1-title h1 {
+    font-size: 22px;
+  }
+  .work-text {
+    width: 80%;
+    font-size: 10px;
+  }
+  .box-for-image {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item1 {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .block1-title h1 {
+    font-size: 26px;
+  }
+  .work-text {
+    width: 90%;
+    font-size: 11px;
+  }
+  .date-box h1 {
+    font-size: 30px;
+  }
+  .date-box h4 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .block1-title h1 {
+    font-size: 23px;
+  }
+  .block1-title p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .block1-title h1 {
+    font-size: 20px;
+  }
+  .block1-title p {
+    font-size: 11px;
+  }
+  .date-box h1 {
+    font-size: 26px;
+  }
+  .date-box h4 {
+    font-size: 11px;
+  }
+}
