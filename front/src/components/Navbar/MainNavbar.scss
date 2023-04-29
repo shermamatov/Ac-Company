@@ -1,0 +1,30 @@
+.main_navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    .navbars_block {
+        width: 100%;
+    }
+    .logo_block {
+        width: calc(100px + (150 - 100) * ((100vw - 800px) / (1600 - 800)));
+        margin-top: 30px;
+        margin-right: calc(
+            -15px + (-25 - -15) * ((100vw - 800px) / (1600 - 800))
+        );
+        > img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .main_navbar {
+        .navbars_block {
+        }
+        .logo_block {
+            display: none;
+            > img {
+            }
+        }
+    }
+}

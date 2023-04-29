@@ -1,0 +1,111 @@
+.news{
+    padding: 100px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    &__bottom{
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__blog{
+        width: 520px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px 0;
+        img{
+            width: 100%;
+        }
+        span{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 30px;
+            color: #BCBCBC;
+        }
+        h3{
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 40px;
+            color: #041E3C;
+        }
+        p{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #001733;
+        }
+        button{
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 40px;
+            color: #EC2A48;
+            border: none;
+            background-color: transparent;
+        }
+    }
+}
+@media (max-width:1700px) {
+    .news{
+        &__blog{
+            max-width: 400px;
+        }
+    }
+}
+@media (max-width:1600px) {
+    .news{
+        &__blog{
+            max-width: 360px;
+        }
+    }
+}
+@media (max-width:1200px) {
+    .news{
+        &__blog{
+            max-width: 300px;
+        }
+    }
+}
+@media (max-width:1000px) {
+    .news{
+        &__blog{
+            width: 100%; 
+            max-width: fit-content;  
+            margin-bottom: 50px;
+            span{
+                font-size: 20px;
+            }
+            h3{
+                font-size: 36px;
+            }
+            p{
+                font-size: 28px;
+            }
+            button{
+                font-size: 28px;
+            }
+        }
+        &__bottom{
+            flex-direction: column;
+        }
+    }
+}
+@media (max-width:600px) {
+    .news{
+        &__blog{
+            span{
+                font-size: 16px;
+            }
+            h3{
+                font-size: 30px;
+            }
+            p{
+                font-size: 22px;
+            }
+            button{
+                font-size: 22px;
+            }
+        }
+    }
+}
