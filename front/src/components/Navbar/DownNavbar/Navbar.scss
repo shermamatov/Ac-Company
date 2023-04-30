@@ -25,6 +25,7 @@
             justify-content: space-around;
             > li {
                 text-decoration: none;
+                cursor: pointer;
                 list-style-type: none;
                 color: #252525;
             }
@@ -39,7 +40,7 @@
         width: 24%;
         height: 100%;
         > button {
-            background: linear-gradient(90deg, #DC5435 0%, #E07B37 147.5%);
+            background: linear-gradient(90deg, #dc5435 0%, #e07b37 147.5%);
             height: 100%;
             width: 100%;
             border: none;
