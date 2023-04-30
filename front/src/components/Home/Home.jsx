@@ -13,22 +13,22 @@ import LatestNews from "./block/block10/LatestNews";
 import Partners from "./block/block11/Partners";
 import Location from "./block/location/Location";
 const Home = () => {
-    return (
-        <>
-            <Family />
-            {/* <Special /> */}
-            {/* <Services /> */}
-            {/* <SeoTitle /> */}
-            {/* <Enjeneers /> */}
-            {/* <Costumers /> */}
-            {/* <Block7 /> */}
-            {/* <Block8 /> */}
-            {/* <OurProjectPhotos /> */}
-            {/* <LatestNews /> */}
-            {/* <Partners /> */}
-            <Location />
-        </>
-    );
+  return (
+    <>
+      <Family />
+      <Special />
+      <Services />
+      <SeoTitle />
+      <Enjeneers />
+      {/* <Costumers /> */}
+      <Block7 />
+      {/* <Block8 /> */}
+      <OurProjectPhotos />
+      <LatestNews />
+      <Partners />
+      <Location />
+    </>
+  );
 };
 
 export default Home;
