@@ -6,11 +6,12 @@
         width: 100%;
     }
     .logo_block {
-        width: calc(100px + (150 - 100) * ((100vw - 800px) / (1600 - 800)));
-        margin-top: 30px;
-        margin-right: calc(
-            -15px + (-25 - -15) * ((100vw - 800px) / (1600 - 800))
-        );
+        width: calc(80px + (120 - 80) * ((100vw - 800px) / (1600 - 800)));
+        margin-top: 50px;
+        // margin-right: calc(
+        //     -15px + (-25 - -15) * ((100vw - 800px) / (1600 - 800))
+        // );
+        margin-right: 10px;
         > img {
             width: 100%;
         }

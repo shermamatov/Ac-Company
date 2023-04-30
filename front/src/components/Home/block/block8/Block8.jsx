@@ -9,7 +9,7 @@ const Block8 = () => {
         centerMode: true,
         infinite: true,
         centerPadding: "10px",
-        slidesToShow: 3,
+        slidesToShow: 5,
         focusOnSelect: true,
         speed: 500,
         responsive: [
@@ -17,6 +17,12 @@ const Block8 = () => {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 1800,
+                settings: {
+                    slidesToShow: 3,
                 },
             },
         ],
