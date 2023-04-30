@@ -1,21 +1,22 @@
-.partners{
+.partners {
     padding: 100px 0;
-    &__inner{
-        border-top: 1px solid #E8E8EC;
-        border-bottom: 1px solid #E8E8EC;
+    &__inner {
+        border-top: 1px solid #e8e8ec;
+        border-bottom: 1px solid #e8e8ec;
         display: flex;
         padding: 20px 0;
         justify-content: space-between;
         width: 100%;
-        img{
+        img {
             width: 10%;
         }
     }
 }
-@media (max-width:860px) {
-    .partners{
-        &__inner{
-            img{
+@media (max-width: 860px) {
+    .partners {
+        padding: 0px 0px;
+        &__inner {
+            img {
                 width: 25%;
             }
         }

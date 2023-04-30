@@ -1,110 +1,111 @@
-.news{
-    padding: 100px 0;
-    font-family: 'Montserrat';
+.news {
+    // padding: 100px 0;
+    font-family: "Montserrat";
     font-style: normal;
-    &__bottom{
+    &__bottom {
         padding-top: 50px;
         display: flex;
         justify-content: space-between;
     }
-    &__blog{
+    &__blog {
         width: 520px;
         text-align: left;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 15px 0;
-        img{
+        img {
             width: 100%;
         }
-        span{
+        span {
             font-weight: 600;
             font-size: 18px;
             line-height: 30px;
-            color: #BCBCBC;
+            color: #bcbcbc;
         }
-        h3{
+        h3 {
             font-weight: 700;
             font-size: 35px;
             line-height: 40px;
-            color: #041E3C;
+            color: #041e3c;
         }
-        p{
+        p {
             font-weight: 500;
-            font-size: 20px;
+            font-size: 16px;
             line-height: 30px;
             color: #001733;
         }
-        button{
+        button {
             margin-top: 40px;
             font-weight: 600;
             font-size: 18px;
             line-height: 40px;
-            color: #EC2A48;
+            color: #ec2a48;
             border: none;
             background-color: transparent;
         }
     }
 }
-@media (max-width:1700px) {
-    .news{
-        &__blog{
+@media (max-width: 1700px) {
+    .news {
+        &__blog {
             max-width: 400px;
         }
     }
 }
-@media (max-width:1600px) {
-    .news{
-        &__blog{
+@media (max-width: 1600px) {
+    .news {
+        &__blog {
             max-width: 360px;
         }
     }
 }
-@media (max-width:1200px) {
-    .news{
-        &__blog{
+@media (max-width: 1200px) {
+    .news {
+        &__blog {
             max-width: 300px;
         }
     }
 }
-@media (max-width:1000px) {
-    .news{
-        &__blog{
-            width: 100%; 
-            max-width: fit-content;  
+@media (max-width: 1000px) {
+    .news {
+        &__blog {
+            width: 100%;
+            max-width: fit-content;
             margin-bottom: 50px;
-            span{
+            span {
                 font-size: 20px;
             }
-            h3{
+            h3 {
                 font-size: 36px;
             }
-            p{
-                font-size: 28px;
+            p {
+                font-size: 26px;
             }
-            button{
+            button {
                 font-size: 28px;
             }
         }
-        &__bottom{
+        &__bottom {
             flex-direction: column;
         }
     }
 }
-@media (max-width:600px) {
-    .news{
-        &__blog{
-            span{
+@media (max-width: 600px) {
+    .news {
+        &__blog {
+            span {
                 font-size: 16px;
             }
-            h3{
+            h3 {
                 font-size: 30px;
             }
-            p{
-                font-size: 22px;
+            p {
+                font-size: 18px;
             }
-            button{
-                font-size: 22px;
+            button {
+                font-size: 16px;
+                margin-top: 0px;
             }
         }
     }
