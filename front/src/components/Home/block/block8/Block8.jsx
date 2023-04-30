@@ -11,7 +11,9 @@ const Block8 = () => {
         centerPadding: "10px",
         slidesToShow: 5,
         focusOnSelect: true,
-        speed: 500,
+        speed: 100,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 600,
