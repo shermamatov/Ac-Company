@@ -1,12 +1,12 @@
 import React from "react";
 import "./Enjeneers.css";
 import "./EnjeneersAdaptive.css";
-import img1 from "../../../../images/img1.png";
-import img2 from "../../../../images/img2.png";
-import img3 from "../../../../images/img3.png";
-import img4 from "../../../../images/img4.png";
-import img5 from "../../../../images/img5.png";
-import img6 from "../../../../images/img6.png";
+import img1 from "../../../../images/Group 541.png";
+import img2 from "../../../../images/Group 542.png";
+import img3 from "../../../../images/Group 541.png";
+import img4 from "../../../../images/Group 542.png";
+import img5 from "../../../../images/Group 541.png";
+import img6 from "../../../../images/Group 542.png";
 import im1 from "../../../../images/Vector (5).png";
 import im2 from "../../../../images/Vector (6).png";
 const Enjeneers = () => {
