@@ -7,7 +7,5 @@ services:
     restart: always
     ports:
       - 127.0.0.1:${APP_PORT}:8000
-    volumes:
-      - /home/1accompany:/usr/src/app/media
  #   env_file:
  #      - .env
