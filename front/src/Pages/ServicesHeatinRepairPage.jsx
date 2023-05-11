@@ -1,11 +1,11 @@
-
+import ServicesMore from "../components/ServicesMore/ServicesMore";
 
 const ServicesHeatinRepairPage = () => {
     return (
         <div>
-            ServicesHeatinRepairPage
+            <ServicesMore />
         </div>
     );
-}
+};
 
 export default ServicesHeatinRepairPage;

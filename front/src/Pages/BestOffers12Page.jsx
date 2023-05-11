@@ -1,11 +1,11 @@
-
+import BestOffers2 from "../components/BestOffers/BestOffers2/BestOffers2";
 
 const BestOffers12Page = () => {
     return (
         <div>
-             BestOffers12Page
+            <BestOffers2 />
         </div>
     );
-}
+};
 
 export default BestOffers12Page;
