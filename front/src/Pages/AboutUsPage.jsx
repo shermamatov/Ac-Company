@@ -1,7 +1,11 @@
+import AboutUs from "../components/aboutUs/AboutUs";
+
 const AboutUsPage = () => {
-  return <div>
-            AboutUsPage
-    </div>;
+    return (
+        <div>
+            <AboutUs />
+        </div>
+    );
 };
 
 export default AboutUsPage;

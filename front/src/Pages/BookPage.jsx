@@ -1,11 +1,11 @@
-
+import BookNow from "../components/BookNow/BookNow";
 
 const BookPage = () => {
     return (
         <div>
-BookPage
+            <BookNow />
         </div>
     );
-}
+};
 
 export default BookPage;

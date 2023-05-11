@@ -91,7 +91,7 @@
                 width: 50%;
                 height: 60%;
                 > button {
-                    background-color: #ec2a48;
+                    background-color: #e07b37;
                     height: 100%;
                     width: 100%;
                     border: none;
@@ -103,6 +103,13 @@
                     );
                 }
             }
+        }
+    }
+}
+@media (min-width: 1800px) {
+    .down_navbar {
+        .navigate_block {
+            font-size: 20px;
         }
     }
 }

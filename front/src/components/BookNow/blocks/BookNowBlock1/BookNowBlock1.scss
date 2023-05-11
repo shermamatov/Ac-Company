@@ -1,0 +1,57 @@
+.bookNow_block1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat";
+    > .left {
+        width: 40%;
+        > p {
+            font-size: calc(12px + (14 - 12) * (100vw - 800px) / (1400 - 800));
+            font-weight: bold;
+            color: #e07b37;
+        }
+        > h1 {
+            font-size: calc(24px + (32 - 24) * (100vw - 800px) / (1400 - 800));
+        }
+    }
+    > .right {
+        width: 60%;
+        > img {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .bookNow_block1 {
+        flex-direction: column;
+        margin-top: 50px;
+        > .left {
+            width: 100%;
+            > p {
+                font-size: 12px;
+            }
+            > h1 {
+                font-size: 22px;
+            }
+        }
+        > .right {
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+}
+@media (min-width: 1800px) {
+    .bookNow_block1 {
+        > .left {
+            > p {
+                font-size: 18px;
+            }
+            > h1 {
+                font-size: 42px;
+            }
+        }
+        > .right {
+            width: 55%;
+        }
+    }
+}
