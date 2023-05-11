@@ -9,19 +9,24 @@ import BestOffers12Page from "../Pages/BestOffers12Page";
 import PhotosPage from "../Pages/PhotosPage";
 import ReviewPage from "../Pages/ReviewPage";
 import LocationPage from "../Pages/LocationPage";
+import BookPage from "../Pages/BookPage";
 
 const MainRoutes = () => {
     const PUBLIC_ROUTES = [
         { link: "/", Element: <HomePage />, id: 1 },
         { link: "/services", Element: <ServicesPage />, id: 2 },
-        { link: "/services/heatin_repair", Element: <ServicesHeatinRepairPage />, id: 3 },
+        {
+            link: "/heatin_repair",
+            Element: <ServicesHeatinRepairPage />,
+            id: 3,
+        },
         { link: "/about_us", Element: <AboutUsPage />, id: 4 },
         { link: "/best_offers", Element: <BestOffersPage />, id: 5 },
-        { link: "/best_offers12", Element: <BestOffers12Page />, id: 6},
-        { link: "/photos", Element: <PhotosPage />, id: 7},
-        { link: "/review", Element: <ReviewPage />, id: 8},
-        { link: "/book", Element: <ReviewPage />, id: 9},
-        { link: "/location", Element: <LocationPage />, id: 10},
+        { link: "/best_offers2", Element: <BestOffers12Page />, id: 6 },
+        { link: "/photos", Element: <PhotosPage />, id: 7 },
+        { link: "/review", Element: <ReviewPage />, id: 8 },
+        { link: "/book", Element: <BookPage />, id: 9 },
+        { link: "/location", Element: <LocationPage />, id: 10 },
     ];
     return (
         <>

@@ -1,0 +1,104 @@
+.bookNow_form1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    margin-top: 60px;
+    margin-bottom: 100px;
+    > h3 {
+        font-weight: 500;
+    }
+    > .bookNow_form1_block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        > .left {
+            width: 55%;
+            > form {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                > div {
+                    margin-top: 20px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    > label {
+                        font-weight: bold;
+                        > span {
+                            color: #e07b37;
+                        }
+                    }
+                    > input {
+                        width: 70%;
+                        height: 40px;
+                        border: 1px solid #bcbcbc;
+                        border-radius: 5px;
+                        padding-left: 10px;
+                    }
+                }
+                .odinokii_input {
+                    justify-content: end;
+                }
+            }
+        }
+        > .right {
+            width: 45%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            > img {
+                width: 300px;
+            }
+        }
+    }
+    .form1_next_btn {
+        width: 320px;
+        margin: auto;
+        background-color: transparent;
+        border: 1px solid #e07b37;
+        color: #e07b37;
+        border-radius: 5px;
+        height: 50px;
+        font-size: 18px;
+        font-family: "Montserrat";
+        font-weight: bold;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 800px) {
+    .bookNow_form1 {
+        > h3 {
+        }
+        > .bookNow_form1_block {
+            > .left {
+                width: 100%;
+                > form {
+                    > div {
+                        flex-direction: column;
+                        align-items: start;
+                        margin-bottom: 20px;
+                        > label {
+                            margin-bottom: 10px;
+                            > span {
+                            }
+                        }
+                        > input {
+                            width: 100%;
+                        }
+                    }
+                    .odinokii_input {
+                    }
+                }
+            }
+            > .right {
+                display: none;
+                > img {
+                }
+            }
+        }
+        .form1_next_btn {
+            width: 100%;
+        }
+    }
+}

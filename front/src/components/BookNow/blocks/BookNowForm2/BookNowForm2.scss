@@ -1,0 +1,296 @@
+.bookNow_form2 {
+    position: relative;
+    z-index: 13;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    margin-top: 50px;
+    margin-bottom: 50px;
+    > h2 {
+        font-weight: 500;
+        margin: auto;
+    }
+    > .form1_next_btn {
+        width: 320px;
+        margin: auto;
+        background-color: transparent;
+        border: 1px solid #e07b37;
+        color: #e07b37;
+        border-radius: 5px;
+        height: 50px;
+        font-size: 18px;
+        font-family: "Montserrat";
+        font-weight: bold;
+    }
+    .blockNow_form2_block2 {
+        display: flex;
+        justify-content: center;
+        > .form2_block2_imgBlock {
+            width: 45%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            > img {
+                width: 80%;
+            }
+        }
+    }
+}
+.date_block {
+    width: 90%;
+    height: 134px;
+    border-radius: 10px;
+    border: 2px solid #d7d7db;
+    margin: 0 auto;
+    font-family: "Montserrat";
+}
+
+.date_block > h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.date_block > h2 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.blockNowForm2 {
+    width: 800px;
+
+    // margin: 0 auto;
+}
+// .month_form {
+//     width: 25%;
+//     margin: auto;
+// }
+.date_block-wrapper {
+    position: relative;
+}
+
+.month_form {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: "Montserrat";
+    h3 {
+        margin-top: 3%;
+    }
+}
+
+.month_form-next-btn,
+.month_form-prev-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    border: 1px solid #d7d7db;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.month_form-next-btn {
+    right: -25px;
+}
+
+.month_form-prev-btn {
+    left: -25px;
+}
+
+.date_block-wrapper-next-btn,
+.date_block-wrapper-prev-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    border: 1px solid #d7d7db;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.date_block-wrapper-next-btn {
+    right: -35px;
+}
+
+.date_block-wrapper-prev-btn {
+    left: -33px;
+}
+
+.slick-next,
+.slick-prev {
+    z-index: 5;
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+}
+
+.blockNowForm2 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.blockNowForm2_month {
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 28px;
+    margin-bottom: 50px;
+}
+
+.blockNowForm2_month button {
+    position: static;
+}
+
+.blockNowForm2_time {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2a2a2a;
+    text-align: center;
+    margin: 45px 0;
+}
+
+.blockNowForm2_time_wrapper {
+    text-align: center;
+}
+
+.blockNowForm2_time_item {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2a2a2a;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.blockNowForm2_time_item:first-child {
+    color: #d9d9d9;
+}
+
+.blockNowForm2_time_item:nth-child(2) {
+    color: #e07b37;
+}
+
+.blockNowForm2_textarea {
+    width: 100%;
+    height: 250px;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    border: 1px solid #a5a582;
+    border-radius: 15px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #a5a582;
+    padding: 20px 40px;
+    margin-top: 50px;
+}
+
+.blockNowForm2_textarea::placeholder {
+    opacity: 0.5;
+}
+
+.blockNowForm2_btn {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2a2a2a;
+    width: 138px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #2a2a2a;
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+.blockNowForm2_choose {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .blockNow_form2_block2 {
+        width: 100%;
+        .blockNowForm2 {
+            width: 100%;
+        }
+        .form2_block2_imgBlock {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .slick-next,
+    .date_block-wrapper-next-btn {
+        right: -10px;
+    }
+
+    .slick-prev,
+    .date_block-wrapper-prev-btn {
+        left: -10px;
+        z-index: 10;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blockNowForm2_choose {
+        display: block;
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #2a2a2a;
+        margin-bottom: 70px;
+    }
+
+    .slick-next,
+    .date_block-wrapper-next-btn {
+        // right: -26px;
+        display: none;
+    }
+    .slick-prev,
+    .date_block-wrapper-prev-btn {
+        // left: -26px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    // .blockNowForm2 {
+    //     padding: 35px 10px;
+    //     width: 100%;
+    // }
+    .date_block {
+        // width: 90px;
+        height: 110px;
+        > h2 {
+            font-size: 16px;
+        }
+        > h1 {
+            font-size: 20px;
+        }
+    }
+}
