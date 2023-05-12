@@ -18,7 +18,6 @@ const AboutUs = () => {
             <Enjeneers />
             <OurProjectsPhotos />
             <Partners />
-            <Location />
             {/* <LatestNews /> */}
         </div>
     );

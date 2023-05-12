@@ -25,9 +25,9 @@ const Navbar = () => {
                     <li className="line"></li>
                     <li>EQUIPMENT</li>
                     <li className="line"></li>
-                    <li>BLOG</li>
+                    <li onClick={() => navigate("/blog")}>BLOG</li>
                     <li className="line"></li>
-                    <li>PROJECT PHOTOS</li>
+                    <li onClick={() => navigate("/photos")}>PROJECT PHOTOS</li>
                 </ul>
             </div>
             <div className="down_navbar_button_block">

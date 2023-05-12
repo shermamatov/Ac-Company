@@ -1,11 +1,11 @@
-
+import BlogSingle from "../components/Blogs/BlogSingle/BlogSingle";
 
 const BlogSinglePage = () => {
     return (
         <div>
- BlogSinglePage
+            <BlogSingle />
         </div>
     );
-}
+};
 
 export default BlogSinglePage;

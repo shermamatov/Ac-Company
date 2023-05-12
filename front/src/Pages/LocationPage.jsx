@@ -1,11 +1,11 @@
-
+import Location from "../components/Location/Location";
 
 const LocationPage = () => {
     return (
         <div>
-            LocationPage
+            <Location />
         </div>
     );
-}
+};
 
 export default LocationPage;

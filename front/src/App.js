@@ -8,6 +8,7 @@ import ChelModal from "./chel/ChelModal";
 import chelImg from "./images/chel.png";
 import { useChel } from "./Contexts/ChelContext";
 import MainRoutes from "./Routes/MainRoutes";
+import Location from "./components/Home/block/location/Location";
 function App() {
     const [chel, setChel] = useState(false);
     const {
@@ -71,6 +72,7 @@ function App() {
             <MainNavbar />
             <MainRoutes />
             {/* <Home /> */}
+            <Location />
             <Footer />
         </div>
     );

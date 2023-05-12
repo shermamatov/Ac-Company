@@ -1,0 +1,80 @@
+.blogSingle_main_block {
+    font-family: "Montserrat";
+    margin-top: calc(10px + (50 - 10) * ((100vw - 350px) / (1400 - 350)));
+
+    > h1 {
+        font-size: calc(18px + (40 - 18) * ((100vw - 350px) / (1400 - 350)));
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    > img {
+        width: 100%;
+    }
+    p {
+        font-size: calc(12px + (16 - 12) * ((100vw - 350px) / (1400 - 350)));
+        font-weight: 400;
+        margin: 20px 0px;
+    }
+    h4 {
+        font-size: calc(14px + (18 - 14) * ((100vw - 350px) / (1400 - 350)));
+        font-weight: 700;
+    }
+    .qestion {
+        margin-top: calc(20px + (60 - 20) * ((100vw - 350px) / (1400 - 350)));
+        // margin-top: 60px;
+    }
+    .margin {
+        // margin: 80px 0px;
+        margin-top: calc(30px + (80 - 30) * ((100vw - 350px) / (1400 - 350)));
+        margin-bottom: calc(
+            30px + (80 - 30) * ((100vw - 350px) / (1400 - 350))
+        );
+    }
+    .yasmin_block {
+        background-color: #f8f8f8;
+        text-align: center;
+        padding: 20px;
+        > p {
+            font-weight: 600;
+        }
+    }
+    .line {
+        width: 100%;
+        height: 1px;
+        background: #107ebd;
+        margin-top: calc(10px + (50 - 10) * ((100vw - 350px) / (1400 - 350)));
+    }
+    .mess {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        > img {
+            width: 30px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+}
+@media (min-width: 1600px) {
+    .blogSingle_main_block {
+        margin-top: 50px;
+        > h1 {
+            font-size: 44px;
+        }
+        p {
+            font-size: 18px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        .qestion {
+            margin-top: 50px;
+        }
+        .margin {
+            margin: 80px;
+        }
+        .line {
+            margin-top: 50px;
+        }
+    }
+}
