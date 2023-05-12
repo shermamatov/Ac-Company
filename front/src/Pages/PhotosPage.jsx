@@ -1,11 +1,11 @@
-
+import Photos from "../components/Photos/Photos";
 
 const PhotosPage = () => {
     return (
         <div>
-            PhotosPage
+            <Photos />
         </div>
     );
-}
+};
 
 export default PhotosPage;
