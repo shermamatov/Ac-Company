@@ -5,14 +5,13 @@ import Section3 from "./sections/Section3";
 import Location from "../Home/block/location/Location";
 
 const Services = () => {
-  return (
-    <div>
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Location />
-    </div>
-  );
+    return (
+        <div>
+            <Section1 />
+            <Section2 />
+            <Section3 />
+        </div>
+    );
 };
 
 export default Services;

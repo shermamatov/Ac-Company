@@ -10,6 +10,8 @@ import PhotosPage from "../Pages/PhotosPage";
 import ReviewPage from "../Pages/ReviewPage";
 import LocationPage from "../Pages/LocationPage";
 import BookPage from "../Pages/BookPage";
+import BlogPage from "../Pages/BlogPage";
+import BlogSinglePage from "../Pages/BlogSinglePage";
 
 const MainRoutes = () => {
     const PUBLIC_ROUTES = [
@@ -27,6 +29,8 @@ const MainRoutes = () => {
         { link: "/review", Element: <ReviewPage />, id: 8 },
         { link: "/book", Element: <BookPage />, id: 9 },
         { link: "/location", Element: <LocationPage />, id: 10 },
+        { link: "/blog", Element: <BlogPage />, id: 11 },
+        { link: "/blog_single", Element: <BlogSinglePage />, id: 12 },
     ];
     return (
         <>
