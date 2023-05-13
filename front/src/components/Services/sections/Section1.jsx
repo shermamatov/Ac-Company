@@ -9,7 +9,7 @@ const Section1 = () => {
         <section className="servicesSection1">
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    {/* <div className="col-6">
                         <h1 className="servicesSection1_title">
                             HVAC Services in Southern California
                         </h1>
@@ -30,7 +30,7 @@ const Section1 = () => {
                             src={serviecesSection1Img}
                             alt=""
                         />
-                    </div>
+                    </div> */}
                     <div className="col-6">
                         <ul className="servicesSection1_list">
                             {services_list1.map((item) => {

@@ -3,7 +3,9 @@ import reviewsBlock1Star from "../img/reviewsBlock1-star.svg";
 import reviewsBlock1Cirlce from "../img/reviewsBlock1-circle.png";
 import reviewsBlock1Big from "../img/reviewsBlock1-big.png";
 import ReviewsWritePopup from "./ReviewsPopup/ReviewsWritePopup/ReviewsWritePopup";
-import superHero from "../../../images/superHero.png";
+import banner from "../../../images/mask2.webp";
+
+// import superHero from "../../../images/superHero.png";
 const ReviewsBlock1 = () => {
     const [showPopup, setShowPopup] = useState(false);
     return (
@@ -87,7 +89,7 @@ const ReviewsBlock1 = () => {
                             Write a review
                         </button>
                         <div>
-                            <img src={superHero} alt="" />
+                            <img src={banner} alt="" />
                         </div>
                     </div>
                 </div>

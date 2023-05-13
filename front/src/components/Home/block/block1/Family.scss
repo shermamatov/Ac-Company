@@ -8,9 +8,9 @@
     align-items: center;
     margin-top: calc(45px + (80 - 45) * ((100vw - 800px) / (1400 - 800)));
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
     .block1_left {
-        margin-top: calc(20px + (30 - 20) * ((100vw - 800px) / (1400 - 800)));
+        // margin-top: calc(20px + (30 - 20) * ((100vw - 800px) / (1400 - 800)));
         > h1 {
             font-size: calc(
                 36px + (54 - 36) * ((100vw - 800px) / (1400 - 800))

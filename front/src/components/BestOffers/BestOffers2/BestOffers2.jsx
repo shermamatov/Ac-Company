@@ -4,13 +4,16 @@ import BestOffBlock1 from "../BestOffers1/BestOff1Blocks/BestOff1Block1/BestOffB
 import BestOffBlock2 from "../BestOffers1/BestOff1Blocks/BestOff1Block2/BestOffBlock2";
 import LatestNews from "../../Home/block/block10/LatestNews";
 import Partners from "../../Home/block/block11/Partners";
+import BestOffFamily from "../BestOffers1/BestOff1Blocks/BestOffFamily/BestOffFamily";
+import Section3 from "../../Services/sections/Section3";
 
 const BestOffers2 = () => {
     return (
         <div>
-            <Family />
+            <BestOffFamily />
             <BestOffBlock1 col={6} />
-            <BestOffBlock2 />
+            <Section3 />
+            {/* <BestOffBlock2 /> */}
             <LatestNews />
             <Partners />
         </div>

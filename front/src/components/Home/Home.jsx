@@ -26,7 +26,7 @@ const Home = () => {
             <OurProjectPhotos />
             <LatestNews />
             <Partners />
-            <Location />
+            {/* <Location /> */}
         </>
     );
 };

@@ -8,11 +8,13 @@ import OurProjectsPhotos from "../Home/block/block9/OurProjectsPhotos";
 import Partners from "../Home/block/block11/Partners";
 import Location from "../Home/block/location/Location";
 import AboutBlock2 from "./blocks/AboutBlock2";
+import BlockTestAbout from "./blocks/BlockTestAbout";
 
 const AboutUs = () => {
     return (
         <div className="aboutUs">
-            <Block11 />
+            <BlockTestAbout />
+            {/* <Block11 /> */}
             <AboutBlock2 />
             <Block22 />
             <Enjeneers />

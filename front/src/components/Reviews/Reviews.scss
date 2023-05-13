@@ -20,7 +20,7 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 22px;
-        color: #ec2a48;
+        color: #e07b37;
     }
 
     &_title {
@@ -43,7 +43,7 @@
             font-size: 30px;
             line-height: 37px;
             text-transform: uppercase;
-            color: #ec2a48;
+            color: #e07b37;
         }
 
         &_icon {
@@ -78,7 +78,7 @@
             &_line {
                 width: 211px;
                 height: 5px;
-                background: #ec2a48;
+                background: #e07b37;
                 border-radius: 100px;
             }
         }
@@ -99,25 +99,27 @@
     }
     .reviewsBlock1_right {
         display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
         width: 45%;
         padding: 30px 0px;
         > button {
             border: none;
-            background: #ec2a48;
+            background: #e07b37;
             border-radius: 10px;
             color: white;
             font-weight: 700;
             font-size: 18px;
             width: 50%;
             height: 55px;
-            margin-right: -10%;
+            // margin-right: -10%;
             margin-top: 5%;
             cursor: pointer;
             position: relative;
             z-index: 3;
         }
         > div {
-            width: 50%;
+            width: 100%;
             > img {
                 width: 100%;
             }
@@ -159,7 +161,7 @@
             transition: 0.5s;
 
             &:hover {
-                color: #ec2a48;
+                color: #e07b37;
             }
         }
 
@@ -211,10 +213,10 @@
                 font-weight: 700;
                 // font-size: 25px;
                 font-size: calc(
-                    14px + (26 - 10) * ((100vw - 350px) / (1400 - 350))
+                    14px + (20 - 10) * ((100vw - 350px) / (1400 - 350))
                 );
                 line-height: 40px;
-                color: #ec2a48;
+                color: #e07b37;
             }
         }
 
@@ -307,7 +309,7 @@
             font-weight: 600;
             font-size: 24px;
             line-height: 40px;
-            color: #ec2a48;
+            color: #e07b37;
             margin-top: 15px;
         }
     }

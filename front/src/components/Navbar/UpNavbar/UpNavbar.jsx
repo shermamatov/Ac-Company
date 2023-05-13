@@ -9,13 +9,15 @@ const UpNavbar = () => {
                 <div className="up_navbar_location_img">
                     <img src={location} alt="" />
                 </div>
-                <p>Los Angeles, CA</p>
+                <p>73 Canal Street, California, LA</p>
             </div>
             <div className="button_block">
-                <button><span>20% Todays special Deal in your city</span></button>
+                <button>
+                    <span>20% Todays special Deal in your city</span>
+                </button>
             </div>
             <div className="up_navbar_div">
-                <a href="tel:+1(818)8581415">+1(818) 858 14 15</a>
+                <a href="tel:+1(818)8581415">+1-818-888-10-10</a>
                 <div className="up_navbar_phone_img">
                     <img src={phone} alt="" />
                 </div>
