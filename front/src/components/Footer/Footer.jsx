@@ -114,9 +114,9 @@ const Footer = () => {
                             <div className="que_polasa"></div>
                         </div>
                     </div>
-                    <div className="footer_hero">
+                    {/* <div className="footer_hero">
                         <img src={hero} alt="" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>
