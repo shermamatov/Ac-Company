@@ -8,6 +8,7 @@
     font-family: "Montserrat";
     font-weight: 700;
     height: calc(45px + (70 - 45) * ((100vw - 800px) / (1600 - 800)));
+    max-height: 80px;
     // height: 70px;
     .navigate_block {
         width: 75%;
@@ -110,6 +111,11 @@
     .down_navbar {
         .navigate_block {
             font-size: 20px;
+        }
+        .down_navbar_button_block {
+            > button {
+                font-size: 20px;
+            }
         }
     }
 }
