@@ -1,0 +1,90 @@
+.EqSecondBlock2 {
+    margin-top: 100px;
+    font-family: "Montserrat";
+    .EqSecondBlock2_catalog_block {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px 30px;
+        > .EqSecond_card {
+            box-shadow: 0px 6px 30px rgba(212, 212, 212, 0.35);
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            > img {
+                width: 60%;
+            }
+            > h2 {
+                font-size: 18px;
+                font-weight: 700;
+                margin-top: 10px;
+            }
+            > p {
+                font-size: 12px;
+                font-weight: 500;
+                margin-top: 10px;
+            }
+            > h3 {
+                color: #ec2a48;
+                font-size: 20px;
+                font-weight: 700;
+                margin-top: 30px;
+            }
+            > .EqSecond_card_rating {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                color: #7d798d;
+                > img {
+                    margin-right: 10px;
+                    margin-bottom: 3px;
+                }
+            }
+            > .EqSecond_card_share {
+                width: 15px;
+                position: absolute;
+                right: 20px;
+                bottom: 20px;
+            }
+            .EqSecond_card_state {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 40px;
+                background-color: #107ebd;
+                border-radius: 30px;
+                height: 15px;
+                font-size: 10px;
+                color: white;
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+@media (max-width: 1100px) {
+    .EqSecondBlock2 {
+        .EqSecondBlock2_catalog_block {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .EqSecondBlock2 {
+        margin-top: 60px;
+        .EqSecondBlock2_catalog_block {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+@media (max-width: 500px) {
+    .EqSecondBlock2 {
+        .EqSecondBlock2_catalog_block {
+            grid-template-columns: 1fr;
+        }
+    }
+}
