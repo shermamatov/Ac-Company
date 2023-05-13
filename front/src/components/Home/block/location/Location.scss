@@ -34,3 +34,18 @@
         margin-top: 40px;
     }
 }
+@media (min-width: 1800px) {
+    .location {
+        > .location_text_block {
+            p {
+                font-size: 14px;
+            }
+            > h2 {
+                font-size: 42px;
+            }
+            .location_text_desc {
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -114,6 +114,14 @@
     }
 }
 
+.about_block1_p {
+    font-size: calc(14px + (18 - 16) * ((100vw - 800px) / (1400 - 800)));
+    font-family: "Montserrat";
+    font-weight: 500;
+    width: 40%;
+    line-height: 150%;
+}
+
 @media (max-width: 800px) {
     .block1__inner2 {
         flex-direction: column;
@@ -186,6 +194,18 @@
     }
     .servicesSection1 {
         padding: 50px 0px;
+    }
+    .about_block1_p {
+        width: 100%;
+        font-size: 12px;
+    }
+    .about_br {
+        display: none;
+    }
+    .about_block1_test {
+        > p {
+            font-size: 12px !important;
+        }
     }
 }
 @media (max-width: 1800px) {
