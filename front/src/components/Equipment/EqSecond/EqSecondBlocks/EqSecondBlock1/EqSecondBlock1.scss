@@ -1,0 +1,96 @@
+.EqSecondBlock1 {
+    font-family: "Montserrat";
+    margin-top: 50px;
+    > .EqSecondBlock1_top {
+        display: flex;
+        justify-content: space-between;
+        .EqSecondBlock1_left {
+            h1 {
+                font-size: calc(
+                    18px + (42 - 18) * ((100vw - 350px) / (1400 - 350))
+                );
+                margin-top: 5px;
+            }
+            p {
+                font-size: calc(
+                    12px + (18 - 12) * ((100vw - 350px) / (1400 - 350))
+                );
+                font-weight: 500;
+                margin-top: 30px;
+                line-height: 30px;
+            }
+            width: 55%;
+        }
+        .EqSecondBlock1_right {
+            width: 40%;
+            display: flex;
+            // align-items: center;
+            justify-content: center;
+            > img {
+                width: 300px;
+            }
+        }
+    }
+    > .EqSecondBlock1_bottom {
+        width: 100%;
+        display: flex;
+        margin-top: 40px;
+        > div {
+            width: 380px;
+            height: 120px;
+            border-radius: 10px;
+            border: 1px solid #d9d9d9;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-right: 20px;
+            position: relative;
+            z-index: 20;
+            > h3 {
+                margin-left: 30px;
+            }
+            > img {
+                width: 100px;
+                // height: 100px;
+            }
+        }
+        .ESB1b_acive {
+            border: none;
+            background: #107ebd;
+            color: #fff;
+            transition: 0.5s;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .EqSecondBlock1 {
+        > .EqSecondBlock1_top {
+            flex-direction: column;
+            .EqSecondBlock1_left {
+                width: 100%;
+                h1 {
+                }
+                p {
+                    margin-top: 15px;
+                }
+            }
+            .EqSecondBlock1_right {
+                display: none;
+                > img {
+                    width: 300px;
+                }
+            }
+        }
+        > .EqSecondBlock1_bottom {
+            flex-direction: column;
+            > div {
+                width: 100%;
+                height: 90px;
+                margin-top: 20px;
+                > img {
+                    width: 85px;
+                }
+            }
+        }
+    }
+}

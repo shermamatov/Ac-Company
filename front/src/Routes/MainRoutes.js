@@ -12,39 +12,41 @@ import LocationPage from "../Pages/LocationPage";
 import BookPage from "../Pages/BookPage";
 import BlogPage from "../Pages/BlogPage";
 import BlogSinglePage from "../Pages/BlogSinglePage";
+import EquipmentPage from "../Pages/EquipmentPage copy";
+import EqThirdPage from "../Pages/EqThirdPage";
+import EqFirstPage from "../Pages/EqFirstPages";
 
 const MainRoutes = () => {
-    const PUBLIC_ROUTES = [
-        { link: "/", Element: <HomePage />, id: 1 },
-        { link: "/services", Element: <ServicesPage />, id: 2 },
-        {
-            link: "/heatin_repair",
-            Element: <ServicesHeatinRepairPage />,
-            id: 3,
-        },
-        { link: "/about_us", Element: <AboutUsPage />, id: 4 },
-        { link: "/best_offers", Element: <BestOffersPage />, id: 5 },
-        { link: "/best_offers2", Element: <BestOffers12Page />, id: 6 },
-        { link: "/photos", Element: <PhotosPage />, id: 7 },
-        { link: "/review", Element: <ReviewPage />, id: 8 },
-        { link: "/book", Element: <BookPage />, id: 9 },
-        { link: "/location", Element: <LocationPage />, id: 10 },
-        { link: "/blog", Element: <BlogPage />, id: 11 },
-        { link: "/blog_single", Element: <BlogSinglePage />, id: 12 },
-    ];
-    return (
-        <>
-            <Routes>
-                {PUBLIC_ROUTES.map((item) => (
-                    <Route
-                        path={item.link}
-                        element={item.Element}
-                        key={item.id}
-                    />
-                ))}
-            </Routes>
-        </>
-    );
+  const PUBLIC_ROUTES = [
+    { link: "/", Element: <HomePage />, id: 1 },
+    { link: "/services", Element: <ServicesPage />, id: 2 },
+    {
+      link: "/heatin_repair",
+      Element: <ServicesHeatinRepairPage />,
+      id: 3,
+    },
+    { link: "/about_us", Element: <AboutUsPage />, id: 4 },
+    { link: "/best_offers", Element: <BestOffersPage />, id: 5 },
+    { link: "/best_offers2", Element: <BestOffers12Page />, id: 6 },
+    { link: "/photos", Element: <PhotosPage />, id: 7 },
+    { link: "/review", Element: <ReviewPage />, id: 8 },
+    { link: "/book", Element: <BookPage />, id: 9 },
+    { link: "/location", Element: <LocationPage />, id: 10 },
+    { link: "/blog", Element: <BlogPage />, id: 11 },
+    { link: "/blog_single", Element: <BlogSinglePage />, id: 12 },
+    { link: "eq", Element: <EquipmentPage />, id: 13 },
+    { link: "eqThird", Element: <EqThirdPage />, id: 14 },
+    { link: "eqFirst", Element: <EqFirstPage />, id: 15 },
+  ];
+  return (
+    <>
+      <Routes>
+        {PUBLIC_ROUTES.map((item) => (
+          <Route path={item.link} element={item.Element} key={item.id} />
+        ))}
+      </Routes>
+    </>
+  );
 };
 
 export default MainRoutes;

@@ -1,0 +1,206 @@
+.EqSecondBlock3 {
+    font-family: "Montserrat";
+    margin-top: 50px;
+    > h1 {
+        font-size: calc(16px + (36 - 16) * ((100vw - 350px) / (1400 - 350)));
+    }
+    .EqSecondBlock3_catalog_block {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px 30px;
+        margin-top: 30px;
+        > .EqSecond_card {
+            box-shadow: 0px 6px 30px rgba(212, 212, 212, 0.35);
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            > img {
+                width: 60%;
+            }
+            > h2 {
+                font-size: 18px;
+                font-weight: 700;
+                margin-top: 10px;
+            }
+            > p {
+                font-size: 12px;
+                font-weight: 500;
+                margin-top: 10px;
+            }
+            > h3 {
+                color: #ec2a48;
+                font-size: 20px;
+                font-weight: 700;
+                margin-top: 30px;
+            }
+            > .EqSecond_card_rating {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                color: #7d798d;
+                > img {
+                    margin-right: 10px;
+                    margin-bottom: 3px;
+                }
+            }
+            > .EqSecond_card_share {
+                width: 15px;
+                position: absolute;
+                right: 20px;
+                bottom: 20px;
+            }
+            .EqSecond_card_state {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 40px;
+                background-color: #107ebd;
+                border-radius: 30px;
+                height: 15px;
+                font-size: 10px;
+                color: white;
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+.Eq_Second_mini_pag {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    .paginate_block2 {
+        display: flex;
+        align-items: center;
+        width: 110px;
+        margin-top: 50px;
+        justify-content: space-between;
+        font-family: "Montserrat";
+        font-weight: 600;
+        > div {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #d7d7db;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #fff;
+        }
+        > p {
+            cursor: pointer;
+        }
+    }
+}
+
+.EqSecondBlock3_catalog_block_adap {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .EqSecondBlock3 {
+        .EqSecondBlock3_catalog_block {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .EqSecondBlock3 {
+        margin-top: 60px;
+        .EqSecondBlock3_catalog_block {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+@media (max-width: 500px) {
+    .EqSecondBlock3 {
+        .EqSecondBlock3_catalog_block {
+            grid-template-columns: 1fr;
+            display: none;
+        }
+    }
+    .Eq_Second_mini_pag {
+        display: none;
+    }
+    .EqSecondBlock3_catalog_block_adap {
+        display: block;
+        margin-top: 40px;
+        z-index: 10;
+        .EqSecond_card_adap {
+            box-shadow: 0px 6px 30px rgba(212, 212, 212, 0.35);
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            width: calc(
+                200px + (300 - 200) * ((100vw - 350px) / (500 - 350))
+            ) !important;
+            margin: 30px 0px;
+            > img {
+                width: 60%;
+            }
+            > h2 {
+                font-size: 18px;
+                font-weight: 700;
+                margin-top: 10px;
+            }
+            > p {
+                font-size: 12px;
+                font-weight: 500;
+                margin-top: 10px;
+            }
+            > h3 {
+                color: #ec2a48;
+                font-size: 20px;
+                font-weight: 700;
+                margin-top: 30px;
+            }
+            > .EqSecond_card_rating {
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                color: #7d798d;
+                > img {
+                    margin-right: 10px;
+                    margin-bottom: 3px;
+                }
+            }
+            > .EqSecond_card_share {
+                width: 15px;
+                position: absolute;
+                right: 20px;
+                bottom: 20px;
+            }
+            .EqSecond_card_state {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 40px;
+                background-color: #107ebd;
+                border-radius: 30px;
+                height: 15px;
+                font-size: 10px;
+                color: white;
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 1800px) {
+    .EqSecondBlock3 {
+        > h1 {
+            font-size: 38px !important;
+        }
+    }
+}
